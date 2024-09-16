@@ -7,7 +7,7 @@
 
 In this assignment, you will review the CycleGAN model, a type of Generative Adversarial Network (GAN) used for image-to-image translation, where the goal is to transform images from one domain to another. The key idea is to learn bidirectional mappings between two different domains (e.g., transforming a picture of a horse into a zebra and vice versa). The task will focus on understanding the techniques behind CycleGAN, exploring its architecture, and implementing key components of the model. By the end of this assignment, you will have a deeper understanding of representation learning, generative models, and the practical skills to work with CycleGAN.
 
-<img width="837" alt="Screenshot 2024-09-16 at 6 19 49 AM" src="https://github.com/user-attachments/assets/f48bde41-aa9d-4dbc-a109-2a995bdaf779">
+<img width="837" alt="picture2" src="https://github.com/user-attachments/assets/f88e92b4-cfba-4cb8-a2a1-6cc74c9da560">
 
 
 ### Background
@@ -16,7 +16,7 @@ In this assignment, you will review the CycleGAN model, a type of Generative Adv
 
 The Figure below compares the framework of GAN and CycleGAN. Details of CycleGAN can be found from the paper: "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks" by Zhu et al. 2017, https://ieeexplore.ieee.org/document/8237506.  This framework has enabled versatile applications like style transfer, domain adaptation, and more, and this paper has been cited over 24,000 times until September 2024. 
 
-![Picture1](https://github.com/user-attachments/assets/5d081ac6-f92b-421e-9833-432259c4a4c2)
+![Picture1](https://github.com/user-attachments/assets/c88b6b37-bd6a-4e4f-af2f-59ad38c9a47b)
 
 
 ### Assignment Tasks
