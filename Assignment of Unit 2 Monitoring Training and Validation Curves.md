@@ -46,7 +46,7 @@ X = data[features]
 y = data[target]
 ```
 
-**Evaluation Metric:** Root mean square error (RMSE) is widely used as a performance measure in continuous motion prediction. It measures the average difference of the actual data points from the predicted values, and the difference is squared to avoid the cancelation of positive and negative values, while they are summed up.
+**Evaluation Metric:** Root mean square error (RMSE) is widely used as a performance measure in continuous value prediction. It measures the average difference of the actual data points from the predicted values, and the difference is squared to avoid the cancelation of positive and negative values, while they are summed up.
 
 ##### a. Example 1: Decision Tree
 
