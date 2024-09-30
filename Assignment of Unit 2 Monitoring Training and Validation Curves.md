@@ -288,7 +288,7 @@ optimizer = optim.Adam(model.parameters(), lr=0.01)  # Experiment with different
 
 ### **Part 4: Reflection and Summary (15 points)**
 
-1. **Reflect on Your Experiments (select two of the following questions to answer):** Please provide detailed answers to the following questions based on your experimental observations:
+1. **Reflect on Your Experiments (select two of the following questions to answer):** Please provide detailed answers to the selected questions based on your experimental observations:
    
    - **Q1: Learning Curve Analysis:** Describe how the training and validation loss curves changed with different hyperparameter settings. Did you notice any patterns? For instance:
      - What happened to the validation loss when you increased the learning rate? Did it diverge?
