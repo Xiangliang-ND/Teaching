@@ -1,6 +1,6 @@
 # Homework Assignment of Unit 2: Monitoring Training and Validation Curves
 
-**Due Date:** 
+**Due Date:** 11:59pm on Oct 8, Tuesday
 
 **Submission:** Please submit your solution as a Jupyter Notebook (*.ipynb). Ensure your notebook runs without errors when executed from top to bottom. Include clear comments and discussions as needed, and print outputs as required.
 
