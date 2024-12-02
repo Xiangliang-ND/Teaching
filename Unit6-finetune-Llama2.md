@@ -15,10 +15,10 @@ An Example Code can be found at: https://colab.research.google.com/drive/1lSoom3
 
 ### Instructions
 
-The raw data is already in the notebook. please convert the raw data to the instruction dataset. (Hint: How to construct a dataset in the huggingface format, please read https://huggingface.co/docs/datasets/v1.11.0/loading_datasets.html Please remember to add Llama special tokens to your dataset.)
+The raw data is already in the example code. please convert the raw data to the instruction dataset. (Hint: How to construct a dataset in the huggingface format, please read https://huggingface.co/docs/datasets/v1.11.0/loading_datasets.html Please remember to add Llama special tokens to your dataset.)
 
 
-## Task 2: Finetune llama2 and Show the results (50pt)
+## Task 2: Finetune Llama2 and Show the results (50pt)
 
 **Objective**: Examine the effects of fine-tuning results.
 
