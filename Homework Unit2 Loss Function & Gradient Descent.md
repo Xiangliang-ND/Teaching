@@ -127,7 +127,7 @@ Run the following code to create `y_train_noisy`:
 ```python
 y_train_noisy = y_train.clone()
 # Force the first 5 points to be outliers
-y_train_noisy[0:5] = y_train_noisy[0:5] + 5.0
+y_train_noisy[0:5] = y_train_noisy[0:5] + 7.0
 ```
 *Note: We keep the Test Set clean (unmodified).*
 
@@ -242,5 +242,6 @@ Observe the plots from Q7.
 * **Ambiguous/Hard Points:** Given the high overlap (`std=8.0`), describe what happens to the logits for a "hard" example compared to an "easy" one.
 
 * **Why the Gap?** Why does Cross-Entropy loss try to push the true class logit higher even if the prediction is already correct?
+
 
 
