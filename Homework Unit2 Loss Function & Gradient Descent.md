@@ -114,7 +114,7 @@ Fill in the table:
 
 **Discussion:**
 * Are the results similar?
-* Which training loss resulted in smaller error on the test set? Why do you think that is? (Hint: The noise in our data is Gaussian).
+* Which training loss resulted in smaller error on the test set? Why do you think that is?
 
 ---
 
@@ -242,4 +242,5 @@ Observe the plots from Q7.
 * **Ambiguous/Hard Points:** Given the high overlap (`std=8.0`), describe what happens to the logits for a "hard" example compared to an "easy" one.
 
 * **Why the Gap?** Why does Cross-Entropy loss try to push the true class logit higher even if the prediction is already correct?
+
 
