@@ -15,9 +15,7 @@ In the Word2Vec (CBOW or skip-gram) model, each word in the vocabulary is repres
 - $W_2 \in \mathbb{R}^{V \times d}$ (hidden → output)
 
 Given a  word $x_i$, the  model (e.g., skip-gram) computes:
-$
-h = W_1 x_i, \quad u = W_2 h, \quad \hat{y} = \text{softmax}(u)
-$
+$h = W_1 x_i, \quad u = W_2 h, \quad \hat{y} = \text{softmax}(u)$
 
 ### Question 1.1 — Word Representation  by Word2Vec (10pts)
 
