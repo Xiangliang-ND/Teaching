@@ -93,11 +93,11 @@ Your derivation must include:
 
 1. Computation of $q_i$
 2. Similarity scores:
-   $   s_{ij} = \frac{q_i^T k_j}{\sqrt{d}}$
+   $s_{ij} = \frac{q_i^T k_j}{\sqrt{d}}$
 3. Attention weights:
    $\alpha_{ij} = \frac{\exp(s_{ij})}{\sum_{m=1}^n \exp(s_{im})}$
 4. Final context vector:
-   $   c_i = \sum_{j=1}^n \alpha_{ij} v_j$
+   $c_i = \sum_{j=1}^n \alpha_{ij} v_j$
 
 ### Explain briefly
 
