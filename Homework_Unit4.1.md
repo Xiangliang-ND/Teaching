@@ -84,9 +84,7 @@ w2v.most_similar("bank", topn=10)
 
 In BERT Transformers, we perform **self-attention**, where keys, queries, and values are all derived from the same input sequence.
 Let $\{x_1, \dots, x_n\} \subset \mathbb{R}^d$ be a sequence of  input tokens. Let $W^V, W^K, W^Q \in \mathbb{R}^{d \times d}$ be learned attention matrices:
-$
-v_i = W^Vx_i, \quad k_i = W^Kx_i, \quad q_i = W^Qx_i.
-$
+$v_i = W^Vx_i, \quad k_i = W^Kx_i, \quad q_i = W^Qx_i.$
 
 ### Question 2.1  — Self-attention Explantion (15pts)
 
@@ -95,17 +93,11 @@ Your derivation must include:
 
 1. Computation of $q_i$
 2. Similarity scores:
-   $
-   s_{ij} = \frac{q_i^T k_j}{\sqrt{d}}
-   $
+   $   s_{ij} = \frac{q_i^T k_j}{\sqrt{d}}$
 3. Attention weights:
-   $
-   \alpha_{ij} = \frac{\exp(s_{ij})}{\sum_{m=1}^n \exp(s_{im})}
-   $
+   $\alpha_{ij} = \frac{\exp(s_{ij})}{\sum_{m=1}^n \exp(s_{im})}$
 4. Final context vector:
-   $
-   c_i = \sum_{j=1}^n \alpha_{ij} v_j
-   $
+   $   c_i = \sum_{j=1}^n \alpha_{ij} v_j$
 
 ### Explain briefly
 
