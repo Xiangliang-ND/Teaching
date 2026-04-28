@@ -1,6 +1,7 @@
-# Assignment: Reinforcement Learning 
+# Assignment of Unit 5: Reinforcement Learning 
 
-## Assignment Overview
+**Due Date: 11:59 pm on May 5**
+
 
 We work on a taxi game problem in this homework. The problem is described in https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/. 
 We use OpenAI Gym to set up the game environment, and use Q-learning to train a smart agent that can drive the taxi to send a passenger to the destination location. 
@@ -8,16 +9,6 @@ We use OpenAI Gym to set up the game environment, and use Q-learning to train a 
 Reference codes can be found at: 
 Part 1: https://colab.research.google.com/drive/1esrOdkIb-U30V5potACczNXToZYdffDq?usp=sharing
 Part 2: https://colab.research.google.com/drive/1gQ8ANgkI_kg66HPfKQ2V_0jFoWTlG7Ut?usp=sharing 
-
-
-Note, if you see the error of installiation, please just rerun !pip install gym==0.15.7
-
-<img width="283" alt="image" src="https://github.com/user-attachments/assets/7c664e55-f5f4-4de2-9b63-ff5233fe974e">
-
-You may not have any errors.
-
-<img width="381" alt="image" src="https://github.com/user-attachments/assets/a20de4f2-c326-4096-bcf2-d764fea3c897">
-
 
  
 ## Task 1: Taxi Game Understanding (40pt)
